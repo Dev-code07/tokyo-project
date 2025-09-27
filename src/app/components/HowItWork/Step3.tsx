@@ -11,7 +11,7 @@ const Step3 = () => {
                     <div className='max-w-[120px]'>
                         <div className="relative w-full max-w-sm mx-auto overflow-hidden">
                             <video
-                                src={("/videos/step3.mp4")}
+                                src="/videos/step3.mp4"
                                 autoPlay
                                 loop
                                 muted

@@ -59,7 +59,7 @@ export default function MobilePillTabs({ pills, bottomTabs }: MobilePillTabsProp
     >
       {/* Background */}
       <Image
-        src={("/assets/images/bg-inte.webp")}
+        src="/assets/images/bg-inte.webp"
         alt="Tokyo Intelligence Background"
         fill
         className="w-full object-cover absolute bottom-0 left-0 z-20"
@@ -107,7 +107,7 @@ export default function MobilePillTabs({ pills, bottomTabs }: MobilePillTabsProp
         {/* Doll Video */}
         <div className="relative w-full sm:max-w-[350px] md:max-w-[400px] lg:max-w-[495px] mx-auto">
           <video
-            src={("/videos/Aiagent.mp4")}
+            src="/videos/Aiagent.mp4"
             autoPlay
             loop
             muted

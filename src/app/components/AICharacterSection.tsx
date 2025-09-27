@@ -10,7 +10,7 @@ export default function AICharacterSection() {
                 <div className="relative container mx-auto px-4">
                     <div className="grid md:grid-cols-2 gap-6 lg:gap-10 items-center">
                         <video
-                            src={("/videos/AICharactor.mp4")}
+                            src="/videos/AICharactor.mp4"
                             autoPlay
                             loop
                             muted

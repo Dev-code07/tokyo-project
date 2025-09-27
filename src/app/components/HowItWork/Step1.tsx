@@ -111,7 +111,7 @@ const Step1 = () => {
         ref={cursorRef}
         className="absolute w-8 h-8 pointer-events-none z-30"
         style={{
-          backgroundImage: `url(${('/assets/images/cursor.webp')})`,
+          backgroundImage: `url('/assets/images/cursor.webp')`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
           transform: "translate(0,0)",

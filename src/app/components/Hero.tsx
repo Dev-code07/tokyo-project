@@ -7,7 +7,7 @@ import ChangingWordHero from "./ChangingWordHero";
 
 const Hero: React.FC = () => {
     return (
-        <section className="relative flex flex-col items-center justify-center bg-[#111111] text-center sm:px-4 sm:py-20 py-8  min-h-[calc(100vh-104px)] max-h-[calc(100vh-104px)]" id="home">
+        <section className="relative flex flex-col items-center justify-center bg-[#111111] text-center sm:px-4 sm:py-20 py-8  min-h-[calc(100vh-104px)] max-h-[calc(100vh-104 px)]" id="home">
             <div className="w-full absolute inset-0 bg-[#111111] h-full">
                 <SparklesCore
                     id="tsparticlesfullpage"
@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
             
             <div className="relative w-full sm:max-w-md max-w-sm">
                 <video
-                    src={("/videos/doll.mp4")} 
+                    src="/videos/doll.mp4"
                     autoPlay
                     loop
                     muted

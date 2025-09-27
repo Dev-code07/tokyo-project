@@ -17,7 +17,7 @@ const modules = [
         subtitle: 'English prompts',
         icon: (
             <Image
-                src={("/assets/images/eng.webp")}
+                src="/assets/images/eng.webp"
                 alt="eng"
                 width={100}
                 height={60}

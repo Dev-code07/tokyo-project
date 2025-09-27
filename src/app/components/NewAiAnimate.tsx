@@ -110,7 +110,7 @@ const NewAiAnimate = () => {
 
 
         >
-            <Image src={("/assets/images/bg-inte.webp")} alt="Tokyo Intelligence GIF" fill className='w-full object-cover absolute bottom-0 left-0 z-20' />
+            <Image src="/assets/images/bg-inte.webp" alt="Tokyo Intelligence GIF" fill className='w-full object-cover absolute bottom-0 left-0 z-20' />
             <h2 className="text-center text-white mb-28">
                 <span className="relative inline-block  text-white">
                     <span className="relative z-10">
@@ -155,7 +155,7 @@ const NewAiAnimate = () => {
                 </div>
 
                 <div className="relative w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[495px] mx-auto h-[625px]">
-                    <video src={("/videos/Aiagent.mp4")} autoPlay loop muted className='doll'></video>
+                    <video src="/videos/Aiagent.mp4" autoPlay loop muted className='doll'></video>
                 </div>
             </div>
 

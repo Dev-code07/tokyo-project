@@ -19,7 +19,7 @@ const HeroNew: React.FC = () => {
                 Bring your character to life & go live on streaming platforms like Pump Fun, Twitch, Youtube etc.
             </p>
             <p className="border border-[#2388FF] text-[#2388FF] z-20 relative px-6 py-1 mt-8.5 text-[14px] rounded-full ">COMING SOON</p>
-            <Image src={("/assets/images/ainew.webp")} alt="Animated GIF" className="z-10  object-cover 2xl:-mt-50 lg:-mt-34 -mt-5 heroimage" width={1300} height={900} />
+            <Image src="/assets/images/ainew.webp" alt="Animated GIF" className="z-10  object-cover 2xl:-mt-50 lg:-mt-34 -mt-5 heroimage" width={1300} height={900} />
         </section>
     );
 };
