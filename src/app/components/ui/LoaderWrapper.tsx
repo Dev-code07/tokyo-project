@@ -9,9 +9,9 @@ const LoaderWrapper = ({ children }: { children: React.ReactNode }) => {
   const [progress, setProgress] = useState(0);
 
   const criticalAssets = [
-    '/videos/doll.mp4',
-    '/assets/images/iPhone14Pro.svg',
-    '/assets/images/bg-inte.webp'
+    '/public/videos/doll.mp4',
+    '/public/assets/images/iPhone14Pro.svg',
+    '/public/assets/images/bg-inte.webp'
   ];
 
   // Function to lock scroll

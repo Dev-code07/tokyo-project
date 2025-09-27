@@ -20,22 +20,19 @@ const Hero: React.FC = () => {
                 />
             </div>
 
-
+            
             <div className="relative w-full sm:max-w-md max-w-sm">
                 <video
+                    src="/videos/doll.mp4"
                     autoPlay
-                    muted
                     loop
+                    muted
                     playsInline
-                    className="absolute inset-0 w-full h-full object-cover z-0"
-                >
-                    <source src="/videos/doll.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
+                    className="z-10 w-full sm:h-full h-90 object-contain"
+                />
 
 
-
-
+                
                 <div
                     className="absolute inset-x-0 bottom-0 h-24 sm:hidden"
                     style={{
@@ -44,7 +41,7 @@ const Hero: React.FC = () => {
                     }}
                 />
 
-
+                
                 <div
                     className="absolute inset-0 pointer-events-none sm:block hidden"
                     style={{
@@ -52,18 +49,18 @@ const Hero: React.FC = () => {
                             "linear-gradient(180deg, rgba(17, 17, 17, 0) 35.17%, #111111 90.42%)",
                     }}
                 />
-
+                
             </div>
 
             <ChangingWordHero />
 
-
+          
             <p className="sm:mt-4 mt-2 text-[#A0A0A0] z-20 relative sm:px-0 px-2">
                 Choose a character, customize their world, and start real conversations
                 powered by AI.
             </p>
 
-
+          
             <div className=" mt-8 flex gap-4 flex-wrap justify-center">
                 <Link
                     href="https://app.tokyoproject.ai"
@@ -71,7 +68,7 @@ const Hero: React.FC = () => {
                 >
                     Launch App
                 </Link>
-
+        
             </div>
         </section>
     );
